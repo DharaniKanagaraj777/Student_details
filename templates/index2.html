@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The queryset object:</p>
+
+{{ dharani }}
+
+<p>Loop through the items:</p>
+
+<table border='1'>
+  {% for project in dharani %}
+    <tr>
+      <td>{{ project }}</td>
+    </tr>
+  {% endfor %}
+</table>
+
+</body>
+</html>             

@@ -1,0 +1,25 @@
+
+<html>
+    <body>
+       {{dharani}}
+        <table>
+            <tr>
+                <th>Student Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Department</th>
+                <th>Marks</th>
+            </tr>
+            {% for project in dharani %}
+            <tr>
+                <td>{{project.id}}</td>
+                <td>{{project.FirstName}}</td>
+                <td>{{project.LastName}}</td>
+                <td>{{project.Department}}</td>
+                <td>{{project.Marks}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+       
+    </body>
+</html>
